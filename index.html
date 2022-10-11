@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <title>New Account Sign-up</title>
+    </head>
+    <body>
+        <div id="container">
+            <div id="logo"><img src="leaves.avif"></div>"
+            <div id="main">
+                <div id="header">
+                    This is not a real online service! You know you need something<br>
+                    like this in your life to help you realize your deepest dreams.<br>
+                    Sign up now to get started.<br><br>
+                    You know you want to.
+                </div>
+                <div id="form">
+                    <fieldset>
+                        <legend>Let's do this!</legend>
+                        <form action="" method="post">
+                            <div class="contact">
+                                <div class="form">
+                                    <label for="firstName">FIRST NAME</label>
+                                    <input type="text" class="formStyle" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form">
+                                    <label for="lastName">LAST NAME</label>
+                                    <input type="text" class="formStyle" id="lastName" name="lastName" reqiured>
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <div class="form">
+                                    <label for="email">EMAIL</label>
+                                    <input type="email" class="formStyle" id="email" name="email" required>
+                                </div>
+                                <div class="form">
+                                    <label for="number">PHONE NUMBER</label>
+                                    <input type="number" class="formStyle" id="number" name="number" pattern="(\d{3}([\-])?\d{3}([\-])?\d{4})" min="0" max="9">
+                                </div>
+                            </div>
+                            <div class="contact">
+                                <div class="form">
+                                    <label for="password">*PASSWORD</label>
+                                    <input type="password" class="formStyle" id="password" name="password" required>
+                                </div>
+                                <div class="form">
+                                    <label for="pwConfirm">CONFIRM PASSWORD</label>
+                                    <input type="password" class="formStyle" id="pwConfirm" name="pwConfirm" required>
+                                </div>
+                            </div>
+                        </form>
+                    </fieldset>
+                </div>
+                <div id="footer">
+                    <a href=""><div id="create">Create Account</div></a>
+                    Already have an account? <a href="">Log in</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
