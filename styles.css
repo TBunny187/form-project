@@ -49,11 +49,13 @@ span {
     margin-right: 50px;
 }
 
+/*
 .formStyle {
     border: 2px solid gray;
     border-radius: 15%;
     background: #c0c0c0;
 }
+*/
 
 fieldset {
     border: 0;
@@ -62,6 +64,16 @@ fieldset {
 legend {
     font-size: 25px;
     font-weight: 600;
+}
+
+input {
+    border: 2px solid green;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input:focus {
+    border: 2px solid red;
 }
 
 #create {
